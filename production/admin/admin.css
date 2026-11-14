@@ -1,0 +1,52 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,Arial,sans-serif;background:#f3f4f6;color:#16181d}
+.abar{background:#141519;color:#fff;display:flex;align-items:center;gap:26px;padding:12px 22px;flex-wrap:wrap}
+.abar b{font-size:17px}
+.abar nav{display:flex;gap:16px;flex-wrap:wrap}
+.abar a{color:#e8e9ec;text-decoration:none;font-size:14px;font-weight:600}
+.abar a:hover{color:#ffc61a}
+.awrap{max-width:1060px;margin:0 auto;padding:26px 18px 60px}
+h1{font-size:24px;margin:0 0 16px}
+h2{font-size:18px;margin:24px 0 10px}
+.amsg{background:#e7f8ee;border:1px solid #25d366;color:#0d6e33;padding:11px 14px;border-radius:9px;margin-bottom:14px;font-weight:600}
+.aerr{background:#fdecec;border:1px solid #e01a22;color:#a30d13;padding:11px 14px;border-radius:9px;margin-bottom:14px;font-weight:600}
+.acards{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.acard{background:#fff;border:1px solid #e6e7ea;border-radius:12px;padding:18px;text-align:center}
+.acard b{display:block;font-size:30px;color:#e01a22}
+.acard span{font-size:13px;color:#5c6470;font-weight:600}
+.abtn{display:inline-block;background:#e01a22;color:#fff;font-weight:700;font-size:14px;padding:9px 18px;border-radius:8px;text-decoration:none;border:none;cursor:pointer}
+.abtn:hover{background:#b80f18}
+.abtn.sm{padding:6px 12px;font-size:13px}
+.abtn.big{padding:12px 26px;font-size:15px}
+.abtn.danger{background:#fff;color:#e01a22;border:1.4px solid #e01a22}
+.abtn.ghost{background:#fff;color:#16181d;border:1.4px solid #cfd3da}
+.abtn.ghost:hover{border-color:#16181d;background:#fff}
+.aquick{display:flex;gap:10px;flex-wrap:wrap}
+.atable{width:100%;border-collapse:collapse;background:#fff;border:1px solid #e6e7ea;border-radius:12px;overflow:hidden}
+.atable th,.atable td{padding:10px 12px;text-align:left;font-size:14px;border-bottom:1px solid #eef0f2;vertical-align:middle}
+.atable th{background:#f8f9fa;font-size:12.5px;text-transform:uppercase;letter-spacing:.05em;color:#5c6470}
+.atable.sm th,.atable.sm td{padding:7px 10px;font-size:13px}
+.athumb{width:52px;height:42px;object-fit:cover;border-radius:6px;border:1px solid #e6e7ea}
+.athumb.lg{width:110px;height:88px;margin-top:8px}
+.ainline{display:inline}
+.amini{background:#fff;border:1.4px solid #cfd3da;border-radius:7px;padding:5px 10px;font-weight:600;cursor:pointer;font-size:13px}
+.amini:hover{border-color:#e01a22;color:#e01a22}
+.aacts{white-space:nowrap}
+.arfq{color:#e01a22;font-weight:700}
+.aform{background:#fff;border:1px solid #e6e7ea;border-radius:12px;padding:20px;display:flex;flex-direction:column;gap:13px;max-width:640px;margin-bottom:22px}
+.aform label{display:flex;flex-direction:column;gap:6px;font-size:13.5px;font-weight:700}
+.aform input[type=text],.aform input[type=number],.aform input[type=email],.aform select,.aform textarea{padding:10px 12px;border:1.4px solid #d5d8de;border-radius:8px;font-family:inherit;font-size:14.5px;font-weight:400}
+.aform .acheck{flex-direction:row;align-items:center;gap:9px;font-size:14px}
+.ahint{font-size:13px;color:#5c6470;margin:-4px 0 0}
+.aslide{width:100%;max-height:240px;object-fit:cover;border-radius:9px}
+.aorder{background:#fff;border:1px solid #e6e7ea;border-radius:12px;padding:16px;margin-bottom:16px}
+.aohead{display:flex;gap:16px;align-items:center;flex-wrap:wrap;border-bottom:1px solid #eef0f2;padding-bottom:9px;margin-bottom:9px}
+.aohead span{color:#5c6470;font-size:13.5px}
+.loginbox{max-width:380px;margin:9vh auto;background:#fff;border:1px solid #e6e7ea;border-radius:14px;padding:28px;text-align:center}
+.loginbox h1{color:#e01a22;margin-bottom:2px}
+.loginbox p{color:#5c6470;margin:0 0 16px}
+.loginbox form{display:flex;flex-direction:column;gap:12px;text-align:left}
+.loginbox label{display:flex;flex-direction:column;gap:6px;font-size:13.5px;font-weight:700}
+.loginbox input{padding:11px 12px;border:1.4px solid #d5d8de;border-radius:8px;font-size:14.5px}
+.loginbox button{background:#e01a22;color:#fff;font-weight:700;font-size:15px;padding:12px;border:none;border-radius:8px;cursor:pointer}
+@media(max-width:760px){.acards{grid-template-columns:repeat(2,1fr)}.atable th:nth-child(3),.atable td:nth-child(3){display:none}}
