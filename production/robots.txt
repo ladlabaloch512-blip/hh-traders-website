@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /partials/
+
+Sitemap: https://hhtraders.pk/sitemap.xml

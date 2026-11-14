@@ -1,0 +1,487 @@
+{
+    "settings": {
+        "site_name": "H.H Traders",
+        "tagline": "Fire Safety & Safety Solutions",
+        "address": "Office #14, Mumtaz Market, City Saddar Road, Jinnah Road, Rawalpindi",
+        "city": "Rawalpindi",
+        "email": "haroonmirza115@gmail.com",
+        "phone1": "0312 5488700",
+        "phone2": "0346 5814290",
+        "whatsapp": "923125488700",
+        "cta_mode": "shop",
+        "base_url": "https://hhtraders.pk",
+        "brands": [
+            "SAFETY JOGGER",
+            "MKT",
+            "HORSE",
+            "WORKSITE"
+        ]
+    },
+    "sliders": [
+        {
+            "img": "uploads/slide-1.jpg",
+            "kicker": "General Order Supplier of",
+            "l1": "STAY PREPARED",
+            "l2": "STAY SAFE",
+            "text": "Your Trusted Partner in Fire Safety & Security Solutions",
+            "cta": "Shop Now",
+            "link": "shop.php"
+        },
+        {
+            "img": "uploads/slide-2.jpg",
+            "kicker": "H.H Traders",
+            "l1": "GEAR UP.",
+            "l2": "WORK SAFE.",
+            "text": "Certified safety gear for your whole crew, ready in Saddar.",
+            "cta": "Shop Now",
+            "link": "shop.php?cat=safety"
+        },
+        {
+            "img": "uploads/slide-3.jpg",
+            "kicker": "H.H Traders",
+            "l1": "STOCKED DEEP.",
+            "l2": "PRICED RIGHT.",
+            "text": "Wholesale rates on 500+ lines for contractors and factories.",
+            "cta": "Shop Now",
+            "link": "shop.php"
+        }
+    ],
+    "categories": [
+        {
+            "id": "fire",
+            "name": "Fire Fighting Equipment",
+            "img": "uploads/cat-fire.jpg"
+        },
+        {
+            "id": "safety",
+            "name": "Safety Items",
+            "img": "uploads/cat-safety.jpg"
+        },
+        {
+            "id": "support",
+            "name": "Hanging Support Systems",
+            "img": "uploads/cat-support.jpg"
+        },
+        {
+            "id": "hvac",
+            "name": "HVAC",
+            "img": "uploads/cat-hvac.jpg"
+        },
+        {
+            "id": "anchor",
+            "name": "Adhesive & Epoxy Anchoring",
+            "img": "uploads/cat-anchor.jpg"
+        },
+        {
+            "id": "tools",
+            "name": "Power Tools",
+            "img": "uploads/cat-tools.jpg"
+        },
+        {
+            "id": "general",
+            "name": "General Order Supplies",
+            "img": "uploads/cat-general.jpg"
+        }
+    ],
+    "tiles": [
+        {
+            "name": "Fire Extinguishers",
+            "cat": "fire",
+            "img": "uploads/p-dcp.jpg"
+        },
+        {
+            "name": "Fire Hose & Reel",
+            "cat": "fire",
+            "img": "uploads/p-hose.jpg"
+        },
+        {
+            "name": "Safety Vests",
+            "cat": "safety",
+            "img": "uploads/p-vest.jpg"
+        },
+        {
+            "name": "Safety Helmets",
+            "cat": "safety",
+            "img": "uploads/p-helmet.jpg"
+        },
+        {
+            "name": "Safety Gloves",
+            "cat": "safety",
+            "img": "uploads/p-gloves.jpg"
+        },
+        {
+            "name": "Smoke Alarms",
+            "cat": "fire",
+            "img": "uploads/p-smoke.jpg"
+        },
+        {
+            "name": "CO2 Cylinders",
+            "cat": "fire",
+            "img": "uploads/p-cylinders.jpg"
+        },
+        {
+            "name": "Safety Cones",
+            "cat": "safety",
+            "img": "uploads/p-cones.jpg"
+        },
+        {
+            "name": "Adhesive & Tapes",
+            "cat": "anchor",
+            "img": "uploads/p-tapes.jpg"
+        },
+        {
+            "name": "Eye Protection",
+            "cat": "safety",
+            "img": "uploads/p-goggles.jpg"
+        }
+    ],
+    "featured": [
+        1,
+        2,
+        3,
+        24,
+        22,
+        5,
+        25,
+        28
+    ],
+    "products": [
+        {
+            "id": 1,
+            "cat": "fire",
+            "name": "DCP Fire Extinguisher (1kg / 2kg / 4kg / 6kg)",
+            "price": 5850,
+            "rfq": false,
+            "is_new": true,
+            "img": "uploads/p-dcp.jpg",
+            "blurb": "Stored-pressure dry chemical powder extinguisher for offices, warehouses and workshops. Wall bracket included.",
+            "rating": 4.8,
+            "part_no": "HH-101"
+        },
+        {
+            "id": 2,
+            "cat": "fire",
+            "name": "CO2 Fire Extinguisher (3kg / 5kg)",
+            "price": 9200,
+            "rfq": false,
+            "is_new": true,
+            "img": "uploads/p-co2.jpg",
+            "blurb": "Carbon dioxide extinguisher for electrical rooms and server areas. Leaves no residue.",
+            "rating": 4.7,
+            "part_no": "HH-102"
+        },
+        {
+            "id": 3,
+            "cat": "fire",
+            "name": "Fire Hose Reel 30m",
+            "price": 14500,
+            "rfq": false,
+            "is_new": false,
+            "img": "uploads/p-hose.jpg",
+            "blurb": "Swinging-type hose reel with 30 metre rubber hose and jet nozzle for commercial buildings.",
+            "rating": 4.6,
+            "part_no": "HH-103"
+        },
+        {
+            "id": 4,
+            "cat": "safety",
+            "name": "Safety Jogger Safety Shoes",
+            "price": 6950,
+            "rfq": false,
+            "is_new": false,
+            "img": "uploads/cat-safety.jpg",
+            "blurb": "Steel-toe safety shoes with anti-puncture midsole. Sizes 39 to 46 in stock.",
+            "rating": 4.9,
+            "part_no": "HH-104"
+        },
+        {
+            "id": 5,
+            "cat": "safety",
+            "name": "Safety Helmet",
+            "price": 850,
+            "rfq": false,
+            "is_new": false,
+            "img": "uploads/p-helmet.jpg",
+            "blurb": "HDPE shell helmet with ratchet adjustment and sweat band. White, yellow and blue.",
+            "rating": 4.5,
+            "part_no": "HH-105"
+        },
+        {
+            "id": 6,
+            "cat": "safety",
+            "name": "Fall Arrest Harness Full Body",
+            "price": 3400,
+            "rfq": false,
+            "is_new": false,
+            "img": "uploads/cat-safety.jpg",
+            "blurb": "Full-body harness with dorsal D-ring and adjustable straps for work at height.",
+            "rating": 4.7,
+            "part_no": "HH-106"
+        },
+        {
+            "id": 7,
+            "cat": "support",
+            "name": "Threaded Rod 10mm - 3m Length",
+            "price": 620,
+            "rfq": false,
+            "is_new": false,
+            "img": "uploads/cat-support.jpg",
+            "blurb": "Zinc-plated threaded rod for tray and duct supports. Sold per 3 metre length.",
+            "rating": 4.4,
+            "part_no": "HH-107"
+        },
+        {
+            "id": 8,
+            "cat": "support",
+            "name": "Cable Tray 300mm - Perforated",
+            "price": 2100,
+            "rfq": false,
+            "is_new": false,
+            "img": "uploads/cat-support.jpg",
+            "blurb": "Perforated galvanised cable tray, 300mm wide, 2.4 metre lengths with couplers.",
+            "rating": 4.5,
+            "part_no": "HH-108"
+        },
+        {
+            "id": 9,
+            "cat": "support",
+            "name": "Channel Strut 41x41 - 3m",
+            "price": 1650,
+            "rfq": false,
+            "is_new": false,
+            "img": "uploads/cat-support.jpg",
+            "blurb": "Slotted channel strut for pipe and HVAC supports. Nuts and clamps available.",
+            "rating": 4.6,
+            "part_no": "HH-109"
+        },
+        {
+            "id": 10,
+            "cat": "hvac",
+            "name": "Refrigerant Manifold Gauge Set",
+            "price": 6800,
+            "rfq": false,
+            "is_new": false,
+            "img": "uploads/cat-hvac.jpg",
+            "blurb": "Two-valve manifold set for R22 and R410A with 36 inch charging hoses.",
+            "rating": 4.8,
+            "part_no": "HH-110"
+        },
+        {
+            "id": 11,
+            "cat": "hvac",
+            "name": "Copper Pipe Coil 1/2 inch - 15m",
+            "price": 11500,
+            "rfq": false,
+            "is_new": false,
+            "img": "uploads/cat-hvac.jpg",
+            "blurb": "Soft copper coil for split AC installation, 1/2 inch outer diameter, 15 metre roll.",
+            "rating": 4.6,
+            "part_no": "HH-111"
+        },
+        {
+            "id": 12,
+            "cat": "hvac",
+            "name": "HVAC Insulation Tape - Pack of 3",
+            "price": 450,
+            "rfq": false,
+            "is_new": false,
+            "img": "uploads/p-tapes.jpg",
+            "blurb": "Foam insulation tape for pipe lagging and joint sealing. Three rolls per pack.",
+            "rating": 4.3,
+            "part_no": "HH-112"
+        },
+        {
+            "id": 13,
+            "cat": "anchor",
+            "name": "MKT Injection Anchoring Adhesive",
+            "price": 2150,
+            "rfq": false,
+            "is_new": false,
+            "img": "uploads/cat-anchor.jpg",
+            "blurb": "Two-part injection mortar cartridge for heavy fixings in concrete and masonry.",
+            "rating": 4.7,
+            "part_no": "HH-113"
+        },
+        {
+            "id": 14,
+            "cat": "anchor",
+            "name": "Anchor Studs M12 - Box of 25",
+            "price": 1750,
+            "rfq": false,
+            "is_new": false,
+            "img": "uploads/cat-anchor.jpg",
+            "blurb": "Grade 8.8 anchor studs with nuts and washers for chemical anchoring. Box of 25.",
+            "rating": 4.5,
+            "part_no": "HH-114"
+        },
+        {
+            "id": 15,
+            "cat": "anchor",
+            "name": "Epoxy Repair Compound 500g",
+            "price": 980,
+            "rfq": false,
+            "is_new": false,
+            "img": "uploads/cat-anchor.jpg",
+            "blurb": "Two-part epoxy compound for concrete cracks, leaks and surface repair.",
+            "rating": 4.4,
+            "part_no": "HH-115"
+        },
+        {
+            "id": 16,
+            "cat": "tools",
+            "name": "WORKSITE Cordless Drill 20V",
+            "price": 12500,
+            "rfq": false,
+            "is_new": false,
+            "img": "uploads/cat-tools.jpg",
+            "blurb": "20V cordless drill driver with two batteries, charger and carry case.",
+            "rating": 4.8,
+            "part_no": "HH-116"
+        },
+        {
+            "id": 17,
+            "cat": "tools",
+            "name": "Angle Grinder 4.5 inch - 850W",
+            "price": 5400,
+            "rfq": false,
+            "is_new": false,
+            "img": "uploads/cat-tools.jpg",
+            "blurb": "850W angle grinder for cutting and grinding metal and stone. Side handle included.",
+            "rating": 4.6,
+            "part_no": "HH-117"
+        },
+        {
+            "id": 18,
+            "cat": "tools",
+            "name": "Rotary Hammer Drill 26mm",
+            "price": 9800,
+            "rfq": false,
+            "is_new": false,
+            "img": "uploads/cat-tools.jpg",
+            "blurb": "SDS-plus rotary hammer for concrete drilling and light chiselling. Three functions.",
+            "rating": 4.7,
+            "part_no": "HH-118"
+        },
+        {
+            "id": 19,
+            "cat": "general",
+            "name": "Workshop Tool Kit 128 Pcs",
+            "price": 9900,
+            "rfq": false,
+            "is_new": false,
+            "img": "uploads/cat-general.jpg",
+            "blurb": "128 piece socket, spanner and driver set in a moulded case for workshop and site use.",
+            "rating": 4.9,
+            "part_no": "HH-119"
+        },
+        {
+            "id": 20,
+            "cat": "general",
+            "name": "HORSE Work Gloves - Dozen",
+            "price": 1200,
+            "rfq": false,
+            "is_new": false,
+            "img": "uploads/cat-general.jpg",
+            "blurb": "Cotton knitted work gloves with grip dots. Sold per dozen pairs.",
+            "rating": 4.4,
+            "part_no": "HH-120"
+        },
+        {
+            "id": 21,
+            "cat": "general",
+            "name": "Industrial Extension Reel 25m",
+            "price": 4600,
+            "rfq": false,
+            "is_new": false,
+            "img": "uploads/cat-general.jpg",
+            "blurb": "25 metre cable reel with four sockets, thermal cut-out and carry handle.",
+            "rating": 4.5,
+            "part_no": "HH-121"
+        },
+        {
+            "id": 22,
+            "cat": "fire",
+            "name": "Smoke Alarm (Detector)",
+            "price": 1450,
+            "rfq": false,
+            "is_new": true,
+            "img": "uploads/p-smoke.jpg",
+            "blurb": "Battery-operated smoke detector with loud alarm and test button for homes and offices.",
+            "rating": 4.7,
+            "part_no": "HH-122"
+        },
+        {
+            "id": 23,
+            "cat": "fire",
+            "name": "CO2 Gas Cylinder 45kg",
+            "price": 18500,
+            "rfq": false,
+            "is_new": false,
+            "img": "uploads/p-cylinders.jpg",
+            "blurb": "Seamless steel CO2 cylinder with valve, for flooding systems and industrial use.",
+            "rating": 4.5,
+            "part_no": "HH-123"
+        },
+        {
+            "id": 24,
+            "cat": "safety",
+            "name": "Safety Vest (Reflective)",
+            "price": 650,
+            "rfq": false,
+            "is_new": true,
+            "img": "uploads/p-vest.jpg",
+            "blurb": "Hi-vis reflective vest with zip front and silver reflective bands. All sizes.",
+            "rating": 4.6,
+            "part_no": "HH-124"
+        },
+        {
+            "id": 25,
+            "cat": "safety",
+            "name": "Safety Gloves (Leather Pair)",
+            "price": 480,
+            "rfq": false,
+            "is_new": false,
+            "img": "uploads/p-gloves.jpg",
+            "blurb": "Full-grain leather work gloves with elastic cuff for handling and workshop use.",
+            "rating": 4.4,
+            "part_no": "HH-125"
+        },
+        {
+            "id": 26,
+            "cat": "safety",
+            "name": "Safety Cones - Pack of 2",
+            "price": 750,
+            "rfq": false,
+            "is_new": false,
+            "img": "uploads/p-cones.jpg",
+            "blurb": "Orange PVC traffic cones with reflective bands and weighted square base.",
+            "rating": 4.5,
+            "part_no": "HH-126"
+        },
+        {
+            "id": 27,
+            "cat": "safety",
+            "name": "Safety Goggles",
+            "price": 390,
+            "rfq": false,
+            "is_new": false,
+            "img": "uploads/p-goggles.jpg",
+            "blurb": "Clear anti-fog safety goggles with blue frame and adjustable strap. Eye protection for grinding and cutting.",
+            "rating": 4.4,
+            "part_no": "HH-127"
+        },
+        {
+            "id": 28,
+            "cat": "safety",
+            "name": "Caution Tape (Roll)",
+            "price": 350,
+            "rfq": false,
+            "is_new": false,
+            "img": "uploads/p-caution.jpg",
+            "blurb": "Yellow and black striped barrier tape roll for marking work and hazard areas.",
+            "rating": 4.3,
+            "part_no": "HH-128"
+        }
+    ],
+    "orders": []
+}
