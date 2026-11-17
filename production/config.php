@@ -59,7 +59,7 @@ function hh_head($d, $title, $desc, $path = '/', $img = null, $type = 'website')
     echo '<meta property="og:title" content="' . hh_e($title) . '"><meta property="og:description" content="' . hh_e($desc) . '">' . "\n";
     echo '<meta property="og:url" content="' . hh_e($url) . '"><meta property="og:image" content="' . hh_e($imgUrl) . '">' . "\n";
     echo '<meta name="twitter:card" content="summary_large_image">' . "\n";
-    echo '<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">' . "\n";
+    echo '<link rel="icon" href="assets/favicon.png" type="image/png">' . "\n";
     echo '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>' . "\n";
     echo '<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">' . "\n";
     echo '<link rel="stylesheet" href="assets/style.css?v=20261114">' . "\n";
