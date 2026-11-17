@@ -493,3 +493,7 @@ section{padding:34px 0 6px}
   .on .cap>*{animation-name:capfade}
   .cksvg circle,.cksvg path{animation-duration:.01s;animation-delay:0s}
 }
+
+/* Client logo image (replaces drawn badge) */
+.logoimg{height:48px;width:auto;display:block;flex:none}
+@media (max-width:560px){ .logoimg{height:42px} }
