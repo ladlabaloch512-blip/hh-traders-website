@@ -14,7 +14,7 @@ foreach ($d["products"] as $xp) { $counts[$xp["cat"]] = ($counts[$xp["cat"]] ?? 
 </div></div>
 <header class="sitehead"><div class="wrap">
   <button class="burger" id="menuBtn" aria-label="Open menu"><?php echo hh_icon('menu'); ?></button>
-  <a class="logo" href="index.php" aria-label="H.H Traders home"><?php echo hh_logo_svg(); ?><span class="lw"><b>H<em>.</em>H Traders</b><small><?php echo hh_e($s['tagline']); ?></small></span></a>
+  <a class="logo" href="index.php" aria-label="H.H Traders home"><img class="logoimg" src="assets/logo.png" alt="H.H Traders logo" width="62" height="48"><span class="lw"><b>H<em>.</em>H Traders</b><small><?php echo hh_e($s['tagline']); ?></small></span></a>
   <form class="searchbox" action="shop.php" method="get" role="search"><div class="sin">
     <input id="searchInput" name="q" type="search" placeholder="Search for products..." aria-label="Search products" autocomplete="off">
     <button class="sbtn" id="searchBtn" type="submit" aria-label="Search"><?php echo hh_icon('search'); ?></button>
