@@ -312,7 +312,7 @@
         if (!box) return;
         if (q.length < 2) { box.classList.remove("open"); box.innerHTML = ""; return; }
         var hits = HH.products.filter(function (p) { return p.name.toLowerCase().indexOf(q) > -1; }).slice(0, 6);
-        box.innerHTML = hits.map(function (p) { return '<a href="product-' + p.id + '.html'"><img src="' + p.img + '" alt=""><span>' + p.name + '</span><b>' + (p.rfq ? "RFQ" : money(p.price)) + '</b></a>'; }).join("");
+        box.innerHTML = hits.map(function (p) { return '<a href="product-' + p.id + '.html"><img src="' + p.img + '" alt=""><span>' + p.name + '</span><b>' + (p.rfq ? "RFQ" : money(p.price)) + '</b></a>'; }).join("");
         box.classList.toggle("open", hits.length > 0);
       });
       document.addEventListener("click", function (e) { var box = $("#suggest"); if (box && !e.target.closest(".searchbox")) box.classList.remove("open"); });
